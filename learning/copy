@@ -1,0 +1,81 @@
+<!-- isso é tag html-->
+<!--dentro de uma tag pode ter um atributo como no caso de lang( lang é o atributo)-->
+<!--Na tag <head> : aparecerá as configurações do meu documento-->
+<!--Na tag <body> : aparecerá todo conteudo visivel da pagina-->
+<!--
+ HTML
+    
+    HyperText
+        Hipertexto
+
+    Markup
+        Marcação
+
+    Languagem
+        Linguagem
+    -->
+<style>
+    /*
+        CSS
+
+        Cascading
+        Em cascata
+
+        StyleSheet
+        Folha de estilo
+
+        */
+    #page-landing {
+        color: brown;
+    }
+
+    .bodie {
+        color: red;
+    }
+
+    h1 {
+        color: yellowgreen;
+    }
+    
+</style>
+
+
+
+#container {
+    /*box model*/
+    border: 1px solid red;
+    padding: 10px 40px 100px;
+    margin: 40px 10px;
+    
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+    <div id="container">
+
+        <h1> Proffy</h1>
+        <h2>Um local de aprendizado</h2>
+
+        <p>Sua plataforma de estudos online </p>
+
+        <img src="" alt="Logo">
+
+        <button>Estudar</button>
+        <button>Dar aulas</button>
+
+    </div>
+
+"https://instagram.fjdf3-1.fna.fbcdn.net/v/t51.2885-15/e35/91031608_101273714837820_8851217125168757028_n.jpg?_nc_ht=instagram.fjdf3-1.fna.fbcdn.net&amp;_nc_cat=100&amp;_nc_ohc=_XP9lPVIZt0AX-sZDkX&amp;oh=aa2e6553de6b88944ade315bf5c3eebc&amp;oe=5F51E807"
+
+
+
+    const isNotEmpty = Object.keys(data).length > 0
+    //se tiver dados adicionar , se nao tiver não adiciona
+    if (isNotEmpty) {
+
+        data.subject = getSubject(data.subject)
+        //como adicionar  dados ao lista de proffys
+        proffys.push(data)
